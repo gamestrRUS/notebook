@@ -59,6 +59,8 @@ casper.notebook_test(function () {
             };
         });
         this.test.assertType(img, "object", "Image('image/png')");
+        this.test.assertEquals(1,1,
+            img.src);
         this.test.assertEquals(img.src.split(',')[0],
                                "data:image/png;base64",
                                "Image data-uri prefix");
