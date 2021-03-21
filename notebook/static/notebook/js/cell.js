@@ -616,6 +616,7 @@ define([
 
         var cursors = [start];
 
+
         for (var i = 0; i < ranges.length; i++) {
             // append both to handle selections
             // ranges[i].head.sticky is null if ctrl-a select
